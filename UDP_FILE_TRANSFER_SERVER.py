@@ -1,4 +1,5 @@
 import socket
+import sys 
 
 # Define the server's host and port
 server_host = "127.0.0.1"
