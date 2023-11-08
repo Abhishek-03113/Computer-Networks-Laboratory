@@ -41,6 +41,7 @@ while True:
     # Send the requested file to the client
     send_file(client_socket, filename)
 
+    print("File Sent Successfully ")
     # Close the client socket
     client_socket.close()
 

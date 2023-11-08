@@ -22,7 +22,7 @@ def calculate_subnet_mask(ip, prefix_length):
 
 # Test cases
 test_cases = [
-    ("192.168.1.10", 24),  # Test case 1: Subnet mask for 192.168.1.10/24
+    ("192.168.1.10", 24),  # Test csubnet_maskase 1: Subnet mask for 192.168.1.10/24
     ("10.0.0.5", 16),  # Test case 2: Subnet mask for 10.0.0.5/16
     ("172.16.0.1", 20),  # Test case 3: Subnet mask for 172.16.0.1/20
 ]
